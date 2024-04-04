@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "quickstarts", "quickstarts", "{0E794101-31FC-4F74-8E00-1CEDAFAB359B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloFunctions", "quickstarts\HelloFunctions\HelloFunctions.csproj", "{EBE98421-2E18-46F1-8726-BC39FD3342F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloFunctions", "quickstarts\HelloFunctions\HelloFunctions.csproj", "{EBE98421-2E18-46F1-8726-BC39FD3342F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurbineRepair", "quickstarts\TurbineRepair\TurbineRepair.csproj", "{F3BD72B2-2745-432B-A699-AFA798E4E635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{EBE98421-2E18-46F1-8726-BC39FD3342F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBE98421-2E18-46F1-8726-BC39FD3342F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBE98421-2E18-46F1-8726-BC39FD3342F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BD72B2-2745-432B-A699-AFA798E4E635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BD72B2-2745-432B-A699-AFA798E4E635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BD72B2-2745-432B-A699-AFA798E4E635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BD72B2-2745-432B-A699-AFA798E4E635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EBE98421-2E18-46F1-8726-BC39FD3342F0} = {0E794101-31FC-4F74-8E00-1CEDAFAB359B}
+		{F3BD72B2-2745-432B-A699-AFA798E4E635} = {0E794101-31FC-4F74-8E00-1CEDAFAB359B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A835CBF2-B09C-4DF1-9335-5517EE1C549A}
